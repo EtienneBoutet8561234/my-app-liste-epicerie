@@ -1,0 +1,68 @@
+/* Style the input and button container */
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Style the input field */
+#food_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Style the "Ajouter" button */
+.btn-success {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+/* Style the list items */
+.app-liste-epicerie-element {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.app-liste-epicerie-element:hover {
+    background-color: #f8f9fa;
+    /* Light gray on hover */
+}
+
+/* Style the content inside list items */
+.app-liste-epicerie-element .food-name {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.app-liste-epicerie-element .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.app-liste-epicerie-element .delete-button:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+}
